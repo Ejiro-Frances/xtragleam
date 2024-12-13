@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xtragleam</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header-top-section header-div-two">
+        <div class="logo-container">
+          <img class="logo" src="./assets/icons/logo.png" alt="Logo" />
+        </div>
+        <nav class="nav-bar header-div-two">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#spa">Spa</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-icons">
+            <!-- put three icons here -->
+            <img src="./assets/icons/bag.png" alt="bag-shaped icon" />
+            <img src="./assets/icons/heart.png" alt="Love-shaped icon" />
+            <img src="./assets/icons/profile.png" alt="person-shaped icon" />
+          </div>
+        </nav>
+
+        <!-- mobile icon -->
+        <div
+          aria-roledescription="hamburger menu"
+          class="hamburger-menu"
+          id="hamburger-menu"
+        >
+          <span class="ham-icon icon-1"></span>
+          <span class="ham-icon icon-2"></span>
+          <span class="ham-icon icon-3"></span>
+          <span class="ham-icon icon-4"></span>
+        </div>
+      </section>
+
+      <!-- this contains the nav on the next line -->
+      <section class="header-div-two">
+        <ul class="shop-options">
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Kiddies</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+        </ul>
+        <div class="nav-icons search-icon">
+          <!-- this contains the search bar -->
+          <img src="./assets/icons/search-normal.png" alt="search icon" />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <article class="hero-section">
+        <section class="hero-text left-col">
+          <h1 class="hero-title">
+            Glow Beyond
+            <img
+              src="./assets/icons/send.png"
+              alt="a right arrow tilted 45 deg to the right"
+            />
+            <span>Expectations</span>
+          </h1>
+          <p class="hero-p">
+            Clean, effective, and cruelty-free skincare made to deliver visible
+            results.
+          </p>
+          <div
+            class="button hero-btn black-btn"
+            aria-roledescription="Button"
+            aria
+          >
+            Shop Now <span class="arrow-span">&rarr;</span>
+          </div>
+        </section>
+        <section class="hero-image right-col">
+          <img
+            src="./assets/images/Group 6270.png"
+            alt="A picture of three products"
+          />
+        </section>
+      </article>
+
+      <!-- why choose us -->
+      <article class="why-choose-us grey-section">
+        <h2 class="grey-section-title">Why Choose Xtragleam?</h2>
+        <section class="two-section-container">
+          <aside class="left-col img-col">
+            <img
+              src="./assets/images/face with rash.png"
+              alt="A woman with acne on her face with her eyes not in the picture and her hand over half of her face."
+            />
+          </aside>
+          <aside class="right-col text-col">
+            <h3 class="text-col-title">Struggling with acne issues?</h3>
+            <p class="text-col-p">
+              At Xtragleam Skincare, we understand how frustrating acne can be,
+              and we’re here to help you regain confidence in your skin. Our
+              carefully designed recovery process targets acne at its root while
+              soothing and nourishing your skin for long-term health.
+            </p>
+            <button class="button">
+              <a href="#">
+                Explore Our Range
+                <span class="arrow-span arrow-span-bg">&rarr;</span></a
+              >
+            </button>
+          </aside>
+        </section>
+      </article>
+
+      <article class="best-seller" id="shop">
+        <div class="header-div-two best-title-div">
+          <h3>Discover Our Best-Sellers</h3>
+          <a class="view-all-link" href="#">View all</a>
+        </div>
+        <section class="grid-container" >
+          <!-- product one -->
+          <section class="grid-col product-container">
+            <section>
+              <aside class="header-div-two">
+                <div >
+                  <p class="b-seller-title">Best Seller</p>
+                  <img class="stars" src="./assets/icons/★★★★★.svg" alt="Stars" />
+                </div>
+                <button class="heart-icon-container">
+                  <img src="./assets/icons/heart.png" alt="heart-shaped icon" />
+                </button>
+              </aside>
+              <!-- this is the main image on the page -->
+              <img
+                class="product-image"
+                src="./assets/images/round body lotion.png"
+                alt="Body lotion in a round container"
+              />
+            </section>
+            <!-- here is the tag below -->
+            <section class="product-tag header-div-two">
+              <div class="price-container">
+                <p class="product-name">X5 Extreme Body Lotion</p>
+                <p>
+                  <span class="crossed-price">#35,000</span>
+                  <span class="price">#30,000</span>
+                </p>
+              </div>
+              <button class="black-btn cart-btn"
+              >Add to Cart
+                <img class="shopping-bag" src="./assets/icons/bag-2.svg" alt="a bag-like icon" />
+              </button>
+            </section>
+          </section>
+
+          <!-- product two -->
+          <section class="grid-col product-container">
+            <section>
+              <aside class="header-div-two">
+                <div>
+                  <p class="b-seller-title">Refined</p>
+                  <img class="stars" src="./assets/icons/★★★★★.svg" alt="Stars" />
+                </div>
+                <button class="heart-icon-container">
+                  <img src="./assets/icons/heart.png" alt="heart-shaped icon" />
+                </button>
+              </aside>
+              <!-- this is the main image on the page -->
+              <img
+                class="product-image"
+                src="./assets/images/long body lotion.png"
+                alt="Face Toner with a net weight of 100ml"
+              />
+            </section>
+            <!-- here is the tag below -->
+            <section class="product-tag header-div-two">
+              <div class="price-container">
+                <p class="product-name">AHA Face Toner</p>
+                <p>
+                  <span class="crossed-price">#75,000</span>
+                  <span class="price">#60,000</span>
+                </p>
+              </div>
+              <button class="black-btn cart-btn"
+              >Add to Cart
+                <img class="shopping-bag"
+                  src="./assets/icons/bag-2.svg"
+                  alt="Shopping bag"
+                />
+              </button>
+            </section>
+          </section>
+
+          <!-- product three -->
+          <section class="grid-col product-container">
+            <section>
+              <aside class="header-div-two">
+                <div>
+                  <p class="b-seller-title">Top</p>
+                  <img class="stars" src="./assets/icons/★★★★★.svg" alt="stars" />
+                </div>
+                <button class="heart-icon-container">
+                  <img
+                    src="./assets/icons/heart.png"
+                    alt="heart-shaped icon"
+                  />
+                </button>
+              </aside>
+              <!-- this is the main image on the page -->
+              <img
+                class="product-image"
+                src="./assets/images/long body oil.png"
+                alt="body oil"
+              />
+            </section>
+            <!-- here is the tag below -->
+            <section class="product-tag header-div-two">
+              <div class="price-container">
+                <p class="product-name">Anti Stretchmark Oil</p>
+                <p>
+                  <span class="crossed-price">#75,000</span>
+                  <span class="price">#70,000</span>
+                </p>
+              </div>
+              <button class="black-btn cart-btn">Add to Cart
+                <img class="shopping-bag" src="./assets/icons/bag-2.svg" alt="Shopping bag" />
+              </button>
+            </section>
+          </section>
+
+          <!-- product four -->
+          <section class="grid-col product-container">
+            <section>
+              <aside class="header-div-two">
+                <div>
+                  <p class="b-seller-title">Best Seller</p>
+                  <img class="stars" src="./assets/icons/★★★★★.svg" alt="stars" />
+                </div>
+                <button class="heart-icon-container">
+                  <img src="./assets/icons/heart.png"
+                    alt="heart-shaped icon"
+                  />
+                </button>
+              </aside>
+              <!-- this is the main image on the page -->
+              <img
+                class="product-image"
+                src="./assets/images/acne serum.png"
+                alt="Acne Serum"
+              />
+            </section>
+            <!-- here is the tag below -->
+            <section class="product-tag header-div-two">
+              <div class="price-container">
+                <p class="product-name">Acne Serum</p>
+                <p>
+                  <span class="crossed-price">#35,000</span>
+                  <span class="price">#30,000</span>
+                </p>
+              </div>
+              <button class="black-btn cart-btn">Add to Cart
+                <img class="shopping-bag" src="./assets/icons/bag-2.svg" alt="Shopping bag" />
+              </button>
+            </section>
+          </section>
+          <!-- product five -->
+          <section class="grid-col product-container">
+            <section>
+              <aside class="header-div-two">
+                <div>
+                  <p class="b-seller-title">Best Seller</p>
+                  <img class="stars" src="./assets/icons/★★★★★.svg" alt="stars" />
+                </div>
+                <button  class="heart-icon-container">
+                  <img
+                   
+                    src="./assets/icons/heart.png"
+                    alt="heart-shaped icon"
+                  />
+                </button>
+              </aside>
+              <!-- this is the main image on the page -->
+              <img
+                class="product-image"
+                src="./assets/images/luminous body wash.png"
+                alt="Luminous Body Oil"
+              />
+            </section>
+            <!-- here is the tag below -->
+            <section class="product-tag header-div-two">
+              <div class="price-container">
+                <p class="product-name">Luminous Body Lotion</p>
+                <p>
+                  <span class="crossed-price">#35,000</span>
+                  <span class="price">#30,000</span>
+                </p>
+              </div>
+              <button class="black-btn cart-btn">
+                 Add to Cart
+                <img class="shopping-bag" src="./assets/icons/bag-2.svg" alt="Shopping bag" />
+              </button>
+            </section>
+          </section>
+          <!-- product six -->
+          <section class="grid-col product-container">
+            <section>
+              <aside class="header-div-two">
+                <div>
+                  <p class="b-seller-title">Best Seller</p>
+                  <img class="stars" src="./assets/icons/★★★★★.svg" alt="stars" />
+                </div>
+                <button  class="heart-icon-container">
+                  <img src="./assets/icons/heart.png"
+                    alt="heart-shaped icon"
+                  />
+                </button>
+              </aside>
+              <!-- this is the main image on the page -->
+              <img
+                class="product-image"
+                src="./assets/images/rectangular moisturizer.png"
+                alt="Skin Glow Moisturing Lotion"
+              />
+            </section>
+            <!-- here is the tag below -->
+            <section class="product-tag header-div-two">
+              <div class="price-container">
+                <p class="product-name">Skin Glow Moisturing Lotion</p>
+                <p>
+                  <span class="crossed-price">#35,000</span>
+                  <span class="price">#30,000</span>
+                </p>
+              </div>
+              <button class="black-btn cart-btn">
+              Add to Cart
+                <img class="shopping-bag" src="./assets/icons/bag-2.svg" alt="Shopping bag" />
+              </button>
+            </section>
+          </section>
+        </section>
+        <div>
+          <!-- red small line -->
+        </div>
+      </article>
+
+
+      <!-- testimonial -->
+<article class=" testimonial-container" id="testimonial">
+<h3>Testimonial</h3>
+<section class="testimonial-grid grid-container">
+  <!-- box 1 -->
+<section class="test-col short lisa">
+  <img src="./assets/images/man with hand to face.png" alt="Lisa">
+  <h4 class="test-title">2 weeks of using Glow Serum</h4>
+  <p class="test-p">After 2 weeks of using Xtragleam, my skin has never felt smoother. Thank you! &ndash; <strong>Lisa, Verified Buyer</strong></p>
+</section>
+<!-- box 2 -->
+<section class="test-col short jane">
+  <img src="./assets/images/woman testifier.png" alt="Jane">
+  <h4 class="test-title">Dermatologist Recommendation</h4>
+  <p class="test-p">As a dermatologist, I recommend Xtragleam to my clients for its effective, natural ingredients. &ndash; <strong>Dr. Jane O., Dermatologist</strong>
+  </p>
+</section>
+
+<!-- box 3 -->
+ <section class="test-col short guru">
+  <img src="./assets/images/woman with short black hair.png" alt="">
+  <h4 class="test-title">Beauty Influencer</h4>
+  <p class="test-p"> Xtragleam is my go-to for glowing skin before events!<strong>&ndash; Skincare Guru, Beauty Influencer</strong>
+
+  </p>
+</section>
+
+<!-- box 4 -->
+ <section class="test-col long emma">
+  <img src="./assets/images/woman with black hair.png" alt="">
+  <h4 class="test-title">Game Changer</h4>
+  <p class="test-p">The Glow Serum isa game-changer. My dark spots faded within weeks, and my skin feels so hydrated! <strong>&ndash; Emma L., Verified Buyer</strong>
+</p>
+</section>
+<!-- box 5 -->
+ <section class="test-col long sarah">
+  <img src="./assets/images/woman with short hair.png" alt="Sarah">
+  <h4 class="test-title">More Confident</h4>
+  <p class="test-p">I’ve struggled with acne for years, but Xtragleam changed everything! My skin is glowing, and I’ve never felt more confident.” <strong>&ndash; Sarah A., Verified Buyer</strong>
+
+  </p>
+</section>
+<!-- box 6 -->
+ <section class="test-col long sarah-2">
+  <img src="./assets/images/blond woman.png" alt="Sarah">
+  <h4 class="test-title">More Confident</h4>
+  <p class="test-p">I’ve struggled with acne for years, but Xtragleam changed everything! My skin is glowing, and I’ve never felt more confident.” <strong>&ndash; Sarah A., Verified Buyer</strong>
+
+  </p>
+</section>
+</section>
+</article>
+
+      <!-- limited offer -->
+      <section class="limited-offer">
+        <h3 class="offer-title">Don't Miss Out: Limited-Time Offer!</h3>
+        <p class="offer-p">
+          Enjoy 20% Off Your First Purchase With Code <strong>GLOW20</strong>
+        </p>
+        <p class="offer-duration">Hurry, Offer Ends In 12hrs 30mins 56seconds</p>
+        <button class="button">
+          Shop the Sale <span class="heart-icon-container">&rarr;</span>
+        </button>
+      </section>
+
+      <!-- radiant skin guide -->
+
+      <article class="grey-section">
+        <h2 class="grey-section-title">Your Guide to Radiant Skin</h2>
+        <section class="two-section-container">
+          <section class="left-col text-col">
+            <h3 class="text-col-title">
+              5 Mistakes That Might Be Hurting Your Skin
+            </h3>
+            <p class="text-col-p">
+              Your skincare routine plays a crucial role in maintaining healthy,
+              radiant skin. However, some common habits might be doing more harm
+              than good. Here are five mistakes to avoid: 1. Overwashing Your
+              Face Washing too often or using harsh cleansers can strip......
+              <a href="#">Continue Reading</a>
+            </p>
+            <button class="button">
+              <a href="#"
+                >Read More Blog Post
+                <span class="arrow-span arrow-span-bg">&rarr;</span></a
+              >
+            </button>
+          </section>
+          <section class="right-col img-col">
+            <img
+              src="./assets/images/smiling girl.png"
+              alt="A girl smiling with her eyes closed and her tongue out"
+            />
+          </section>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <section class="footer-links">
+
+        <div class="footer-logo">
+          <img src="./assets/icons/white logo.svg" alt="Logo">
+        </div>
+         <!--  -->
+        
+        <div class="email-container">
+          <p>Be the first to get notification about our upcoming event</p>
+          <div class="email-holder">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="submit" value="Submit">
+          </div>
+        </div>
+        <!--  -->
+        <div class="foot-grid-cont quick-links">
+          <h6>Quick Link</h6>
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#">Spa</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact Us</a>
+          <a href="#career">Career</a>
+        </div>
+        <!--  -->
+        <div class="company">
+          <h6>Company</h6>
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms-of-service">Terms of Service</a>
+          <a href="#legal">Legal</a>
+        </div>
+
+        </section>
+      </div>
+      <hr />
+      &copy; 2024 Xtragleam Skincare. All Rights Reserved.
+      <small
+        >Designed by <a href="#">Tunde</a> and developed by
+        <a href="https//:www.x.com?france_ssa">Ejiro Frances</a></small
+      >
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+@media (min-width: 720px) {
+  .hamburger-menu {
+    display: none;
+  }
+  .logo-container {
+    width: 33.3%;
+  }
+  .nav-bar {
+    all: unset;
+    width: 66.66%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-icons {
+    all: unset;
+  }
+  .nav-links,
+  .nav-icons {
+    display: flex;
+  }
+  .nav-links li,
+  .nav-icons img {
+    margin: 0.5rem;
+  }
+  /* these are the shopping options */
+  .shop-options {
+    display: flex;
+  }
+  .shop-options li {
+    background: #efefef;
+    color: #121212;
+    margin: 0 0.5rem;
+  }
+  .hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-btn {
+    /* min-width: unset; */
+    min-width: 50%;
+  }
+  /* .footer-container {
+    max-width: 1200px;
+  } */
+  .footer-links {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 4rem;
+  }
+}
+/*  tab*/
+
+@media (min-width: 820px) and (max-width: 1024px) {
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hero-text {
+    width: 50%;
+  }
+  .hero-title {
+    position: relative;
+  }
+  .hero-title img {
+    display: inline-block;
+    width: 6rem;
+    position: absolute;
+    top: 0.5rem;
+    right: -5rem;
+  }
+  .hero-image {
+    display: block;
+
+    width: 48%;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0 2rem;
+  }
+  .email-holder {
+    background-color: black;
+  }
+  input {
+    margin-bottom: 1.4rem;
+  }
+  /*  */
+}
+@media (min-width: 820px) {
+  /* section divided into two */
+  .two-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+    /* gap: 2rem; */
+  }
+  .left-col,
+  .right-col {
+    width: 50%;
+  }
+  .img-col {
+    height: unset;
+  }
+  .img-col img {
+    width: 100%;
+    height: 100%;
+  }
+  .text-col {
+    padding: 2rem;
+  }
+  /* the title inside the col */
+  .text-col-title {
+    font-size: clamp(2rem, 4vw + 1rem, 2.5rem);
+  }
+  .text-col-p {
+    font-size: clamp(1.6rem, 4vw + 1rem, 2rem);
+  }
+  /* foot */
+  .email-container {
+    grid-column: 4 / span 2;
+  }
+  .quick-links {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .company {
+    grid-column: 3;
+    grid-row: 1;
+  }
+}
+/* laptop */
+@media (min-width: 1024px) {
+  /* main */
+  /* the hero page, lets bring back the arrow */
+
+  .hero-title span {
+    display: block;
+    line-height: 2;
+    transform: translateX(240px) translateY(-30px);
+  }
+  /* section with two sides */
+  .section-divided-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  .hero-section {
+    position: relative;
+    margin: 1rem 2rem;
+  }
+  .hero-text {
+    /* padding-left: 5rem; */
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translateX(-40%);
+    line-height: unset;
+    /* font-size: 2rem; */
+  }
+  .hero-title img {
+    display: inline-block;
+  }
+  /* .hero-p { */
+  /* max-width: unset; */
+  /* } */
+  .hero-image {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 90%;
+    width: 40%;
+  }
+  .hero-image img {
+    height: 100%;
+    width: 100%;
+  }
+  /* button */
+  .hero-btn {
+    min-width: unset;
+    margin: 0;
+  }
+  /* testimonial */
+
+  .testimonial-grid {
+    grid-template-areas:
+      "lisa emma sarah"
+      "sarah-2 jane guru";
+    gap: 2rem;
+  }
+  .lisa {
+    grid-area: lisa;
+    /* grid-row: span 1; */
+  }
+  .jane {
+    grid-area: jane;
+    /* grid-row: span 1; */
+    /* max-height: 25rem; */
+    /* height: 32rem; */
+  }
+  .guru {
+    grid-area: guru;
+  }
+  .emma {
+    grid-area: emma;
+  }
+  .sarah {
+    grid-area: sarah;
+  }
+  .sarah-2 {
+    grid-area: sarah-2;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0 2rem;
+  }
+  .email-container {
+    grid-column: 4 / span 2;
+  }
+}
